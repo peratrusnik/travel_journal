@@ -1,0 +1,118 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.travel{
+  width: 550px;
+  height: 700px;
+  margin: 0 auto;
+}
+.header{
+  display: flex;
+  width: 550px;
+  height: 55px;
+  background-color: #f55a5a;
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+  width: 24px;
+  height: 24px;
+}
+.title{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  color: #fff;
+  margin-left: 7px;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.card{
+  width: 471px;
+  height: 168px;
+  display: flex;
+}
+.card--border{
+  padding-bottom: 25px;
+  border-bottom: 1px solid #F5F5F5;
+}
+
+.picture{
+  width: 125px;
+  height: 168px;
+}
+.map{
+  width: 7px;
+  height: 9.55px;
+}
+.card--head{  
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  margin-top: 12px;
+}
+.card--county{
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2B283A;
+  margin-left: 4px;
+  text-transform: uppercase;
+}
+.card--view--google{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918E9B;
+  margin-left: 12px;
+}
+.card--main{
+  display: flex;
+  flex-direction: column;
+  margin-left: 19px;
+}
+.card--title{
+  display: flex;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  width: 326px;
+height: 40px;
+margin-top: 4px;
+margin-bottom: 7px;
+}
+.card--date{
+  display: flex;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+  width: 319px;
+height: 11px;
+}
+.card--description{
+  display: flex;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  text-align: left;
+  width: 326px;
+  height: 45px;
+  margin-top: 9px;
+
+}
+
